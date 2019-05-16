@@ -22,6 +22,8 @@ namespace TestApp06
         {
             label1.Text = "ボタンが押されました";
 
+            string aaa = "TEST";
+
             MessageBox.Show("AAA");
         }
     }
