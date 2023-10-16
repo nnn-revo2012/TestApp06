@@ -22,9 +22,13 @@ namespace TestApp06
         {
             label1.Text = "ボタンが押されました";
 
-            string aaa = "TEST";
-
-            MessageBox.Show("AAA");
+            string aaa = "******";
+#if !NET40
+            aaa = "NOT NET40";
+#else
+            aaa = "NET40";
+#endif
+            MessageBox.Show(aaa);
         }
     }
 }
