@@ -20,7 +20,7 @@ namespace TestApp06
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "ボタンが押されました";
+            label1.Text = "ボタンが押されました 2025/09/21";
 
             string aaa = "******";
 #if !NET40
